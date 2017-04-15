@@ -42,7 +42,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         backgroundColor = SKColor.black
         
         let starField = SKEmitterNode(fileNamed: "StarField")!
-        starField.position = CGPoint(x: size.width/2, y: size.height/2)
+        starField.position = CGPoint(x: size.width/2, y: size.height+300)
         starField.zPosition = -1000
         addChild(starField)
         
